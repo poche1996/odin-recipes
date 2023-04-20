@@ -1,0 +1,13 @@
+.buttons {
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+}
+.button {
+    font-size: 25px;
+}
+#index-header {
+    font-size: 50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, "Geneva", Verdana, sans-serif
+}

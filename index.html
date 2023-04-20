@@ -2,12 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>My Webpage</title>
+        <link rel="stylesheet" href="styles.css">
+        <title>My Recipe Page</title>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <a href="recipes/lasagna.html">Lasagna Recipe</a>
-        <a href="recipes/chicken-salad.html">Chicken Salad Recipe</a>
-        <a href="recipes/carne-guisada.html">Carne Guisada Recipe</a>
+        <h1 id="index-header">My Recipes:</h1>
+        <div class="buttons">
+            <button onclick="window.location.href='recipes/lasagna.html'" class="button">Lasagna Recipe</button><br>
+            <button onclick="window.location.href='recipes/chicken-salad.html'" class="button">Chicken Salad Recipe</button><br>
+            <button onclick="window.location.href='recipes/carne-guisada.html'" class="button">Carne Guisada Recipe</button><br>
+        </div>
     </body>
 </html>
